@@ -1,10 +1,10 @@
 def map(array)
   new = []
-  counter = 0 
+  counter = 0
 
-  while counter < array.length 
+  while counter < array.length
     yield(array[counter])
-  end 
+  end
   counter += 1
 
 end
