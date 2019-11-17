@@ -9,7 +9,7 @@ def map_to_negativize(source_array)
   end
   return new
 end
- 
+
 
 def map_to_no_change(source_array)
   new = []
