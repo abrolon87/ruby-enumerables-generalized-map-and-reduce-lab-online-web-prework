@@ -1,4 +1,4 @@
-def map()
+def map(source_array)
 
 end
 
