@@ -1,3 +1,7 @@
-def map 
+def map()
+
+end
+
+def reduce
 
 end
