@@ -1,7 +1,7 @@
-def map(source_array)
+def map(array)
 
 end
 
-def reduce(source, starting_point=0)
+def reduce(array, starting_point=0)
 
 end
