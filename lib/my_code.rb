@@ -1,3 +1,5 @@
+def my_map
+
 def map_to_negativize(source_array)
   new = []
   i = 0
@@ -7,7 +9,7 @@ def map_to_negativize(source_array)
   end
   return new
 end
-map_to_negativize(source_array)
+ 
 
 def map_to_no_change(source_array)
   new = []
