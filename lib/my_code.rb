@@ -11,16 +11,16 @@ end
 
 def reduce(array, starting_point = 0)
   if starting_point
-    num1 = starting_point
+    red_res = starting_point
     counter = 0
   else
-    num1 = array[0]
+    red_res = array[0]
     counter = 1
   end
 
   while counter < array.length
-    num1 = yield(num1, array[counter]))
+    red_res = yield(red_res, array[counter])
     counter += 1
   end
-  num1 
+  red_res
 end
