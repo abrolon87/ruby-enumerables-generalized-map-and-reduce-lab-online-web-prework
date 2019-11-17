@@ -5,8 +5,8 @@ def map(array)
   while counter < array.length
     new.push(yield(array[counter]))
     counter += 1
-  end 
-  new 
+  end
+  new
 end
 
 def reduce(array, starting_point=0)
