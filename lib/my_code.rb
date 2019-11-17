@@ -1,4 +1,11 @@
 def map(array)
+  new = []
+  counter = 0 
+
+  while counter < array.length 
+    yield(array[counter])
+  end 
+  counter += 1
 
 end
 
