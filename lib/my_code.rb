@@ -3,10 +3,10 @@ def map(array)
   counter = 0
 
   while counter < array.length
-    yield(array[counter])
-  end
-  counter += 1
-
+    new.push(yield(array[counter]))
+    counter += 1
+  end 
+  new 
 end
 
 def reduce(array, starting_point=0)
